@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 
 import Header from './components/header-section/Header';
+import Disbanded from './components/disbanded-section/Disbanded';
 import Compilation from './components/compilation-section/Compilation';
 import Ranking from './components/ranking-section/Ranking';
 import YeahOverall from './components/yeah-overall-section/YeahOverall';
@@ -43,6 +44,7 @@ function App() {
       <Header />
 
       <main className='container-full'>
+        <Disbanded />
         <Compilation />
 
         <div className='container'>
