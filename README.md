@@ -6,6 +6,12 @@ Therefore, I'll breakdown several charts that counts the number of every 'oh yea
 
 **OH YEAH?** 🎸
 
+> 'I believe good music has no borders, no race, and is timeless! And I can play good music for you!'
+> 
+> — Sawao Yamanaka, Delicious Bump Tour in USA (2005)
+
+Thank you so much for these wonderful 35 years, we will never forget this great legendary rock band!
+
 # Technologies used
 
 - React + Material UI
