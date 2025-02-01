@@ -49,6 +49,10 @@ a {
   text-align: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 #disqus_thread {
   min-height: 100px;
   margin-bottom: 4rem;
