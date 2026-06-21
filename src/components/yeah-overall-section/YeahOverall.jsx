@@ -19,7 +19,7 @@ const YeahOverall = () => {
 				
 				<div className='tp-yeah-overall-row'>
 					<p>Total years with no 'yeahs' ☹️</p>
-					<ProgressBarWithLabel value={10} size={35} color={`#dc3545`} />
+					<ProgressBarWithLabel value={12} size={35} color={`#dc3545`} />
 				</div>
 			</article>
 		</section>

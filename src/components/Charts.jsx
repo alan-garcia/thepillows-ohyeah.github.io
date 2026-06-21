@@ -37,6 +37,7 @@ export function YeahsPerYearBarChart({ width, height, colorBar }) {
 		{ year: 2022, yeahs: 0 },
 		{ year: 2023, yeahs: 0 },
 		{ year: 2024, yeahs: 0 },
+		{ year: 2025, yeahs: 0 }
 	];
 
 	return (
@@ -58,7 +59,6 @@ export function YeahsPerYearBarChart({ width, height, colorBar }) {
 				},
 			]}
 			colors={[colorBar]}
-			margin={{left: 65}}
 			layout="horizontal"
 			grid={{ vertical: true }}
 			width={width}
@@ -72,7 +72,7 @@ export function YeahsPerDecadeBarChart({ width, height, colorBar }) {
 		{ decade: '1990 - 1999', yeahs: 330 },
 		{ decade: '2000 - 2009', yeahs: 263 },
 		{ decade: '2010 - 2019', yeahs: 54 },
-		{ decade: '2020 - Present', yeahs: 0 }
+		{ decade: '2020 - 2025', yeahs: 0 }
 	];
 
 	return (
@@ -131,7 +131,7 @@ export function YeahsPerLabelCompanyBarChart({ width, height }) {
 					color: "#004ca3"
 				},
 				{
-					label: 'Delicious Label (2016-Present)',
+					label: 'Delicious Label (2016-2025)',
 					data: [36],
 					color: "#080808"
 				}
