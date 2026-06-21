@@ -59,7 +59,6 @@ export function YeahsPerYearBarChart({ width, height, colorBar }) {
 				},
 			]}
 			colors={[colorBar]}
-			margin={{left: 65}}
 			layout="horizontal"
 			grid={{ vertical: true }}
 			width={width}
