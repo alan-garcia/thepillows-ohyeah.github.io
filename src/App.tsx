@@ -1,13 +1,12 @@
 import { useEffect } from 'react';
 
-import Header from './components/header-section/Header';
-import Disbanded from './components/disbanded-section/Disbanded';
-import Compilation from './components/compilation-section/Compilation';
-import Ranking from './components/ranking-section/Ranking';
-import YeahOverall from './components/yeah-overall-section/YeahOverall';
-import YeahCharts from './components/yeah-charts-section/YeahCharts';
-import AllYeahSongs from './components/all-yeah-songs-section/AllYeahSongs';
-import Footer from './components/footer-section/Footer';
+import Header from './sections/Header/Header';
+import Disbanded from './sections/Disbanded/Disbanded';
+import Compilation from './sections/Compilation/Compilation';
+import Ranking from './sections/Ranking/Ranking';
+import YeahCharts from './sections/YeahCharts/YeahCharts';
+import AllYeahSongs from './sections/AllYeahSongs/AllYeahSongs';
+import Footer from './sections/Footer/Footer';
 
 import './App.css';
 
@@ -46,12 +45,7 @@ function App() {
       <main className='container-full'>
         <Disbanded />
         <Compilation />
-
-        <div className='container'>
-          <Ranking />
-          <YeahOverall />
-        </div>
-
+        <Ranking />
         <YeahCharts />
         <AllYeahSongs />
 
