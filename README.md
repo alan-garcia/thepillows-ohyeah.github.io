@@ -2,7 +2,7 @@
 
 **the pillows** are a Japanese alternative rock band formed in 1989. The singer **Sawao Yamanaka** uses the catch-phrase '**Oh Yeah!**' countless times during shows, and in many songs.
 
-Therefore, I'll breakdown several charts that counts the number of every 'oh yeah' of all his songs. To simplify this measurement, I'll only count the times he says '**yeah**', and not 'oh yeah' as a whole word.
+On this page, you'll find a series of charts analyzing and counting every 'yeah' across the band's discography. For consistency, the analysis counts each occurrence of the word 'yeah' rather than treating 'oh yeah' as a separate expression.
 
 **OH YEAH?** 🎸
 
@@ -14,8 +14,9 @@ Thank you so much for these wonderful 35 years, we will never forget this great 
 
 # Technologies used
 
-- React + Material UI
-- Vite
+- React (TypeScript)
+- Material UI
+- MUI X Charts
 
 # Author
 [alan-garcia](https://github.com/alan-garcia)
