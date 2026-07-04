@@ -13,8 +13,8 @@ const Compilation = () => {
 				<p>The videos featured below were created by <a href='https://www.youtube.com/user/sononamida/' target='_blank' title='sononamida YouTube Channel' aria-label='sononamida YouTube Channel'>@sononamida</a>. Please, consider watching them directly on YouTube to support the original creator.</p>
 
 				<div id='tp-compilation__videos'>
-					<iframe width='640' height='480' src='https://www.youtube.com/embed/Y08_zl7Qhdg' allowFullScreen style={{ border: 'none' }}></iframe>
-					<iframe width='640' height='480' src='https://www.youtube.com/embed/z3mqVlymwVA' allowFullScreen style={{ border: 'none' }}></iframe>
+					<iframe width='640' height='480' src='https://www.youtube.com/embed/Y08_zl7Qhdg' title="Recopilation video of 'Oh yeah' catchphrase from Sawao Yamanaka in 916 live 2004" allowFullScreen style={{ border: 'none' }}></iframe>
+					<iframe width='640' height='480' src='https://www.youtube.com/embed/z3mqVlymwVA' title="Recopilation video of 'Oh yeah' catchphrase from Sawao Yamanaka in 'Lostman Go To America' concert in EE.UU. 2006" allowFullScreen style={{ border: 'none' }}></iframe>
 				</div>
 			</article>
 		</section>
