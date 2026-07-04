@@ -2,11 +2,11 @@ import './Disbanded.css';
 
 const Disbanded = () => {
 	return (
-		<section id="tp-disbanded" className='container'>
-			<h1 className='title'>Disbanded notice</h1>
+		<section id="tp-disbanded">
+			<h2 className='title'>Disbanded notice</h2>
 
-			<article id='tp-disbanded__description'>
-				<p>the pillows officially <u>disbanded</u> on January 31 of 2025 (1989.9.16 — 2025.1.31), during their <strong>'LOSTMAN GO TO CITY 2024-2025'</strong> last tour.</p>
+			<article id='tp-disbanded__description' className='container'>
+				<p>the pillows officially disbanded on January 31 of 2025 (1989.9.16 — 2025.1.31), during their <strong>'LOSTMAN GO TO CITY 2024-2025'</strong> last tour.</p>
 				<p>You can see the following official notice from the band regarding this matter:</p>
 
 				<div id='tp-disbanded__notice'>
@@ -30,8 +30,14 @@ const Disbanded = () => {
 					</div>
 				</div>
 
-				<div id='tp-disbanded__farewell'>
+				{/* <div id='tp-disbanded__farewell'>
 					<p className='text-center'>Thank you so much for these wonderful 35 years, we will never forget this great legendary rock band!</p>
+					<p className='text-center'>OH YEAH? 🎸</p>
+				</div> */}
+
+				<div id="tp-disbanded__farewell">
+					<p>Thank you so much for these wonderful 35 years, we will never forget this great legendary rock band!</p>
+
 					<p className='text-center'>OH YEAH? 🎸</p>
 				</div>
 			</article>
