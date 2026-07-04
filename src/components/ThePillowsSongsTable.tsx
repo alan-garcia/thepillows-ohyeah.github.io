@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { Box } from '@mui/material';
+import { thePillowsSongsColumnsTable } from '../data/initData';
 
 const ThePillowsSongsTable = () => {
   const [songs, setSongs] = useState([]);
@@ -40,15 +41,6 @@ const ThePillowsSongsTable = () => {
     setSearchTerm(searchTerm);
   };
 
-  const columns = [
-    { field: 'id', headerName: '#', width: 60 },
-    { field: 'songName', headerName: 'Song Name', width: 390, flex: 1 },
-    { field: 'albumName', headerName: 'Album Name', width: 250, flex: 1 },
-    { field: 'discType', headerName: 'Disc Type', width: 120 },
-    { field: 'year', headerName: 'Year', type: 'number', width: 90 },
-    { field: 'numberOfYeah', headerName: 'Yeahs', type: 'number', width: 100 }
-  ];
-
   return (
     <>
       <div className="tp-search">
@@ -58,7 +50,7 @@ const ThePillowsSongsTable = () => {
       </div>
       
       <Box>
-        <DataGrid columns={columns} rows={filteredSongs} density='compact'
+        <DataGrid columns={thePillowsSongsColumnsTable} rows={filteredSongs} density='compact'
             initialState={{
               sorting: {
                 sortModel: [{ field: "numberOfYeah", sort: "desc" }],
